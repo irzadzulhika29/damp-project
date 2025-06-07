@@ -1,0 +1,74 @@
+@import "tailwindcss";
+
+:root {
+  /* Orange */
+  --orange: #FF6823;
+
+  /* Blue */
+  --blue: #213448;
+
+  /* Gradient Blue */
+  --gradient-blue: linear-gradient(to right, #547792, #213448);
+
+  /* Grey Background */
+  --grey-bg: #F3F7F6;
+
+  /* Orange Pastel */
+  --orange-pastel: #FFAC37;
+
+  /* Blue Pastel */
+  --blue-pastel: #627D99;
+
+  /* Sky */
+  --sky: #E3E5E5;
+}
+
+/* Kelas untuk warna teks */
+.text-orange {
+  color: var(--orange);
+}
+
+.text-blue {
+  color: var(--blue);
+}
+
+.text-blue-pastel {
+  color: var(--blue-pastel);
+}
+
+.text-grey {
+  color: var(--grey-bg);
+}
+
+/* Kelas untuk background */
+.bg-orange {
+  background-color: var(--orange);
+}
+
+.bg-blue {
+  background-color: var(--blue);
+}
+
+.bg-grey {
+  background-color: var(--grey-bg);
+}
+
+.bg-gradient-blue {
+  background: var(--gradient-blue);
+}
+
+.bg-orange-pastel {
+  background-color: var(--orange-pastel);
+}
+
+.bg-blue-pastel {
+  background-color: var(--blue-pastel);
+}
+
+.border-sky {
+  border: 1px solid var(--sky);
+}
+
+.border-blue {
+  border: 1px solid var(--blue);
+}
