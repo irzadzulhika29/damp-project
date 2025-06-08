@@ -6,6 +6,7 @@ import InputText from '../../components/InputText'
 import Button from '../../components/Button'
 import DataItem from '../../components/DataItem'
 import Dropdown from '../../components/Dropdown'
+import ItemPeminjaman from '../../components/ItemPeminjaman'
 
 const HomepageLaboran = () => {
     return (
@@ -18,6 +19,8 @@ const HomepageLaboran = () => {
             <Dropdown label="Bulan" className='w-32 border-sky border' value={["Hari", "Bulan", "Tahun"]} />
 
             <Button text="Log In" className='w-full' />
+            <ItemPeminjaman title="Peminjaman Ruang Lab G 1.3" time="2 jam yang lalu" name="MUHAMMAD IRZA" category="Ruangan" />
+            <ItemPeminjaman title="Peminjaman Ruang Lab G 1.3" time="2 jam yang lalu" name="MUHAMMAD IRZA" category="Ruangan" />
             <Navbar />
 
         </div>
